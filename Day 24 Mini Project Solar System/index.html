@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Solar System: Document Object Model:30 Days Of JavaScript</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Calculate a weight of an object on a planet</h1>
+        <input type="text" id="mass" placeholder="Mass in Kilogram" />
+        <select>
+            <option value='none'>--select planet-- </option>
+            <option value='Earth'>Earth</option>
+            <option value='Jupiter'>Jupiter</option>
+            <option value='Mars'>Mars</option>
+            <option value='Mercury'>Mercury</option>
+            <option value='Moon'>Moon</option>
+            <option value='Neptune'>Neptune</option>
+            <option value='Pluto'>Pluto</option>
+            <option value='Saturn'>Saturn</option>
+            <option value='Uranus'>Uranus</option>
+            <option value='Venus'>Venus</option>
+        </select>
+        <button>Calculate weight</button>
+    </header>
+    <main>
+        <div class="flex-container">
+            <div class="flex-item image">
+                <img src="images/earth.png" class="planet-image" />
+            </div>
+            <div class="flex-item description">
+                    <h2>The weight of the object on <span></span></h2>
+                    <h3>30000000</h3>
+            </div>
+        </div>
+    </main>
+    <script src="script/javaScript.js"></script>
+</body>
+
+</html>

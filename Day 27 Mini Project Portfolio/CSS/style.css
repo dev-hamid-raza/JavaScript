@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper {
+    margin-inline: 100px;
+}
+.name {
+    margin-top: 30px;
+}
+.name h1 {
+    font-size: 62px;
+}
+.slider {
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+}
+.slider h1 {
+    font-size: 40px;
+}
+p {
+    text-align: justify;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all 0.1s ease;
+}
+.card:hover {
+    font-size: 21px;
+    background-color: aqua;
+}
+.teaching {
+    display: flex;
+    gap: 5px;
+    /* justify-content: center; */
+    align-items: center;
+}
+.teaching #text {
+    font-size: 52px;
+    animation: fade-out 1s ease 0s 1 alternate forwards;
+
+}
+#title {
+    animation: slide 2s ease alternate forwards;
+}
+#icon {
+    animation: fade-out 1s ease 0s 1 normal forwards;
+}
+@keyframes slide {
+    0% {
+        transform: translateX(0px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(50px);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,6 @@
+console.log(true)
+localStorage.setItem('firstName', 'Hamid')
+localStorage.setItem('lastName', 'Raza')
+localStorage.setItem('age', 21)
+localStorage.setItem('city', 'Faisalabad')
+console.log(localStorage)

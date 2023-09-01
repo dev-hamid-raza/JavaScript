@@ -1,0 +1,99 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #272829;
+}
+.wrapper {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+}
+.done
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    height: 200px;
+    padding: 30px;
+    box-shadow: 0px 0px 50px 5px rgb(0, 0, 0);
+    z-index: 6;
+    
+}
+.cover {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.434);
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+.done button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    font-size: 26px;
+    background-color: #fff;
+    border: 0;
+    padding: 5px;
+}
+.container {
+    width: 500px;
+    padding: 15px;
+}
+.container .content {
+    display: flex;
+    flex-direction: column;
+}
+.container span {
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 162, 0);
+    font-weight: 800;
+    letter-spacing: 0.1px;
+}
+.container input {
+    padding: 5px 10px;
+    font-size: 26px;
+    border-radius: 5px;
+    margin: 5px 0;
+    outline: 0px;
+    border: 2px solid black; 
+}
+.container label {
+    font-size: 26px;
+    font-weight: 700;
+}
+.container button {
+    cursor: pointer;
+    font-size: 26px;
+    background-color: rgb(37, 37, 37);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: 0;
+    transition: all 0.1s ease;
+}
+.container button:hover {
+    background-color: rgb(73, 73, 73);
+}
+h1 {
+    text-align: center;
+}

@@ -1,0 +1,133 @@
+:root {
+    --color-950: #35155d;
+    --color-800: #692bac;
+    --color-500: #9b66ec;
+    --bg-color: #00ADB5;
+}
+
+.main-heading {
+    margin-top: 15px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    padding: 0 50px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.main-heading h1 {
+    text-align: center;
+}
+
+.input-section {
+    max-width: 100%;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.input-section input {
+    font-size: 20px;
+    padding: 5px;
+    border: 2px solid var(--color-950);
+    flex: 1 1 200px;
+    height: 50px;
+}
+
+.input-section input:active {
+    outline: none;
+}
+
+.input-section button {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: var(--bg-color);
+    color: #fff;
+    border: 0;
+    padding: 5px;
+    flex: 1 1 100%;
+    height: 50px;
+    white-space: nowrap;
+    transition: all 0.2s ease;
+}
+
+.input-section button:hover {
+    background-color: #008b92;
+}
+
+.result-section {
+    margin-top: 30px;
+}
+
+.error {
+    text-align: center;
+    color: red;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.none {
+    display: none;
+}
+.result {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: var(--bg-color);
+    margin-top: 15px;
+    padding: 15px;
+}
+
+.result h2 {
+    color: #474747;
+    font-size: 16px;
+}
+
+.name {
+    flex: 1 1;
+}
+
+.country {
+    flex: 1 1;
+}
+
+.score {
+    flex: 1 1;
+}
+
+.points {
+    display: flex;
+    gap: 5px;
+}
+
+.result button {
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid var(--bg-color);
+
+    transition: all 0.2s ease;
+}
+
+.result button:hover {
+    background-color: #008b92;
+    color: #fff;
+    border-color: #fff;
+}

@@ -1,0 +1,100 @@
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.row
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 200px;
+}
+.visual-section
+{
+    width: 100%;
+    /* background-color: rgba(128, 128, 128, 0.265); */
+}
+.progress
+{
+
+    width: 100%;
+}
+.bar
+{
+    /* width: 91%; */
+    background-color: rgb(232, 156, 15);
+    height: 40px;
+    width: 0;
+    transition: all 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name
+{
+    width: 100px;
+}
+.number
+{
+    width: 100px;
+}
+.button-section
+{
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+}
+.most-ten
+{
+    text-transform: capitalize;
+    margin-top: 12px;
+    color: rgba(0, 0, 0, 0.623);
+
+}
+header
+{
+    padding: 15px 0px;
+    background-color: rgba(128, 128, 128, 0.265);
+    width: 100%;
+    text-align: center;
+}
+h1
+{
+    color: rgb(232, 156, 15);
+    font-size: 42px;
+}
+h2
+{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.623);
+}
+.button-section
+{
+    width: 100%;
+
+}
+button
+{
+    background-color: rgb(232, 156, 15);
+    border: 0px;
+    padding: 5px 10px;
+    font-size: 22px;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.623);
+    cursor: pointer;
+    font-weight: 700;
+}
